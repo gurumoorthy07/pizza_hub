@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.vadivelugiff{
+    height: 500px;
+    width: 600px;
+    border-radius: 20px;
+    animation: vadivelu  2s linear 1  ;
+
+}
+@keyframes vadivelu{
+    0%{
+        opacity: 0;
+        height: 750px;
+        width:900px ;
+    }
+    50%{
+        opacity: 0.3;
+        height: 650px;
+        width: 750px;
+
+    }
+    75%{
+        opacity: 0.7;
+        height:600px ;
+        width:700px ;
+
+    }
+    100%{
+        opacity: 1;
+        height: 550px;
+        width: 600px;
+    }
+
+}

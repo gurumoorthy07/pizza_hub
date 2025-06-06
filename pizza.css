@@ -1,0 +1,257 @@
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+ .giff{
+  display: flex;
+  flex-wrap: wrap;
+ }
+       .hub{
+  z-index: -1;
+  position: relative;
+  bottom: 800px;
+  /* left: 50px; */
+  height: 850px;
+  width: 850px;
+  animation: chat 2s linear;
+  animation-fill-mode:both;
+  opacity: 0.8;
+ }
+ /* body{
+  overflow: hidden;
+ } */
+@keyframes chat{
+ 50%{opacity: 0.5;
+
+ }
+ 100%{
+ opacity: 0.1;}
+ }
+ .things{
+       display:flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly; 
+        background-image: 70% 80%;
+        background-repeat: no-repeat;
+      margin-top: 10px;
+      overflow: hidden;
+    }
+    
+     
+.chicken{
+     height: 175px;
+  width: 180px;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 20px;
+  margin-left: 45px;
+}
+.twelve{
+   
+     height: 400px;
+     width: 270px;
+     border-radius: 20px;
+     font-family: Bree Serif;
+    
+     }
+     .thirteen{
+      margin-left: 40px;
+      height: 400px;
+     width: 270px;
+     border-radius: 20px;
+     font-family: Bree Serif;
+    }
+     .fruits{
+ display: flex;
+    
+  height:450px ;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-repeat: no-repeat;
+        
+}
+    
+.salad{
+ height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 20px;
+  margin-left: 35px;
+     }
+.sixteen{
+     height: 400px;
+     width: 270px;
+     border-radius: 20px;
+     font-family: Bree Serif;
+     }
+     .seventeen{
+      margin-left: 40px;
+     height: 400px;
+     width: 270px;
+     border-radius: 20px;
+     font-family: Bree Serif;
+     margin-bottom: 20px;
+      
+     }
+     .eightteen{
+      margin-left: 40px;
+     height: 400px;
+     width: 270px;
+     margin-top: 27px;
+     border-radius: 20px;
+     font-family: Bree Serif;
+     
+     }
+     .kebab{
+      height: 190px;
+  width: 190px;
+  margin-left: 35px;
+       
+     }
+     .price{
+  font-size: 25px;
+  color: orangered;
+  text-align: center;
+  margin-top: 26px;
+  }
+  .order{
+  height: 30px;
+  width: 130px;
+  font-size: 18px;
+  border-radius: 20px;
+  background: linear-gradient(270deg,orange,orangered);
+  color: white;
+  border: none;
+  margin-left: 75px;
+  margin-top: 19px;
+  cursor: pointer;
+ 
+}
+.title{
+  font-size: 28px;
+  color:black;
+  margin-top: 20px;
+  text-align: center;
+  
+}
+.price{
+  font-size: 25px;
+  color: orangered;
+  text-align: center;
+  margin-top: 26px;
+  
+
+
+}
+.und{
+  font-size: 25px;
+  color: orangered;
+  text-decoration: line-through;
+  margin-left: 20px;
+}
+.order{
+  height: 30px;
+  width: 130px;
+  font-size: 18px;
+  border-radius: 20px;
+  background: linear-gradient(270deg,orange,orangered);
+  color: white;
+  border: none;
+  margin-left: 75px;
+  margin-top: 19px;
+  cursor: pointer;
+ 
+}
+ .view{
+  display: flex;
+  justify-content: center; 
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   position: relative;
+}
+.all{
+   height: 40px;
+  width: 150px;
+  font-size: 19px;
+  border-radius: 20px;
+  background-color: orangered;
+  color: white;
+  margin: auto;
+  border: none;
+  margin-top: 30px;
+  
+  
+}
+.all:hover{
+  color: orangered;
+  border: 2px solid orangered;
+  height: 35px;
+  width:130px;
+  background: none;
+  cursor: pointer;
+}
+  @media (max-width:1230px){
+       .view .all{
+        margin-top: 400px;
+        margin-left: 40px;
+       }
+   }
+  
+                                           /* media queries<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */  
+   @media (max-width:1200px){
+       .view .all{
+        margin-top: 400px;
+        margin-left: 40px;
+       }
+   }
+    @media (max-width:1100px){
+       .view .all{
+        margin-top: 400px;
+        margin-left: 40px;
+       }
+   }
+   @media (max-width:620px){
+     .view .all{
+        margin-top: 790px;
+        margin-left: 40px;
+       }
+   }
+   @media (max-width:619px){
+   .view .all{
+        margin-top: 860px;
+        margin-left: 40px;
+   }
+   }
+    @media (max-width:607px){
+   .view .all{
+        margin-top: 860px;
+        margin-left: 40px;
+   }
+   }
+    @media (max-width:579px){
+   .view .all{
+        margin-top: 1240px;
+        margin-left: 40px;
+   }
+   }
+    @media (max-width:570px){
+   .view .all{
+        margin-top: 1230px;
+        margin-left: 40px;
+   }
+   }
+   @media (max-width:565px){
+   .view .all{
+        margin-top: 1270px;
+        margin-left: 40px;
+   }
+   }
+
+   @media (max-width:560px){
+   .view .all{
+        margin-top: 1250px;
+        margin-left: 40px;
+   }
+   }

@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hub{
+  z-index: -1;
+  position: relative;
+  bottom: 600px;
+  animation: chat 2s linear;
+  animation-fill-mode:both;
+  opacity: 0.8;
+ 
+}
+ body{
+  overflow: hidden;
+ }
+@keyframes chat{
+ 50%{opacity: 0.5;
+
+ }
+ 100%{
+ opacity: 0.1;}
+ } 
+
+ .icecream{
+    display: flex;
+   margin-top: 50px;
+   height:450px ;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    opacity: 10;
+   
+
+}
+.desserts{
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 20px;
+  margin-left: 35px;
+     }
+      .choco{
+      margin-left: 40px;
+      height: 400px;
+     width: 270px;
+     border-radius: 20px;
+     font-family: Bree Serif;
+
+     }
+     .twenty{
+     height: 400px;
+     width: 270px;
+     border-radius: 20px;
+     font-family: Bree Serif;
+     
+
+     }
+     .price{
+  font-size: 25px;
+  color: orangered;
+  text-align: center;
+  margin-top: 26px;
+     font-family: Bree Serif;
+
+  }
+.und{
+  font-size: 25px;
+  color: orangered;
+  text-decoration: line-through;
+  margin-left: 20px;
+  font-family: Bree Serif;
+}
+.title{
+  font-size: 28px;
+  color:black;
+  margin-top: 20px;
+  text-align: center;
+  font-family: Bree Serif;
+  
+}
+.order{
+  height: 30px;
+  width: 130px;
+  font-size: 18px;
+  border-radius: 20px;
+  background: linear-gradient(270deg,orange,orangered);
+  color: white;
+  border: none;
+  margin-left: 75px;
+  margin-top: 19px;
+  cursor: pointer;
+ 
+}
+.view{
+  display: flex;
+  justify-content: center; 
+   flex-wrap: wrap;
+}
+.all{
+   height: 40px;
+  width: 150px;
+  font-size: 19px;
+  border-radius: 20px;
+  background-color: orangered;
+  color: white;
+  margin: auto;
+  border: none;
+  margin-top: 30px;
+  
+}
+.all:hover{
+  color: orangered;
+  border: 2px solid orangered;
+  height: 35px;
+  width:130px;
+  background: none;
+  cursor: pointer;
+}
+                                                   /* media queries<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+ @media (max-width:1230px){
+       .view .all{
+        margin-top: 400px;
+        margin-left: 40px;
+       }
+   }
+  
+    
+   @media (max-width:1200px){
+       .view .all{
+        margin-top: 400px;
+        margin-left: 40px;
+       }
+   }
+    @media (max-width:1100px){
+       .view .all{
+        margin-top: 400px;
+        margin-left: 40px;
+       }
+   }
+   @media (max-width:620px){
+     .view .all{
+        margin-top: 790px;
+        margin-left: 40px;
+       }
+   }
+    @media (max-width:570px){
+   .view .all{
+        margin-top: 1200px;
+        margin-left: 40px;
+   }
+   }
+   @media (max-width:560px){
+   .view .all{
+        margin-top: 1200px;
+        margin-left: 40px;
+   }
+   }

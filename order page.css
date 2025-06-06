@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  overflow: hidden;
+}
+.input{
+  display: grid;
+  grid-template-rows: (1,1fr);
+  justify-content: center;
+  margin-top: 30PX;
+   flex-wrap: wrap;
+  
+}
+.your{
+  border:  3px solid brown ;
+  border-radius: 20px;
+  height: 370px;
+  width: 330px;
+  position: absolute;
+  left: 40%;
+  margin-top:140px;
+   background-image: url(images/bac.jpg);
+ }
+ .back{
+  font-family:  Margarine;
+ }
+  
+input{
+  margin-top: 20px;
+  position: relative;
+  border: 2px solid brown;
+  text-align: center;
+  height: 52px;
+  width: 160px;
+  border-radius: 11px;
+  font-size: 14PX;
+  margin-left: 10px;
+   }
+   .submit{
+    height: 45px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 130px;
+    position: relative;
+    left: 25px;
+    top:20px;
+    color:black;
+    border-radius: 20px;
+    border: 2px solid brown;
+    background: none;
+
+   }
+   .submit:hover{
+    background-color: orangered;
+    color:white;
+    border: none;
+    cursor: pointer;
+    
+   }
+   input:hover{
+    border: 3px solid brown;
+}
+ 
+ .giff{
+  height: 500px;
+  width: 500px;
+  z-index: -1;
+  position: absolute;
+  animation: giff 5s linear infinite;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  margin-bottom: 100px;
+ }
+@keyframes giff{
+  from{left:-800px;}
+  to{left: 200%;
+  overflow: hidden;}
+  
+}
+                                                       /* media queries<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+@media(max-width:745px){
+  
+  .your{
+  margin-left: -120px;
+  }
+}
+
+ 
+
+ 
